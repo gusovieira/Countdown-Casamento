@@ -1,5 +1,7 @@
 import streamlit as st
-from datetime import datetime, timedelta
+from datetime import datetime
+import pytz
+import time
 
 # === Configuração de fuso horário e data alvo ===
 fuso_brasilia = pytz.timezone('America/Sao_Paulo')
