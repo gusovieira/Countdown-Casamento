@@ -1,8 +1,5 @@
-import tkinter as tk
-from datetime import datetime
-import time
-import threading
-import pytz
+import streamlit as st
+from datetime import datetime, timedelta
 
 # === Configuração de fuso horário e data alvo ===
 fuso_brasilia = pytz.timezone('America/Sao_Paulo')
